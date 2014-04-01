@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #00A2AC;
+    font-size: 12px;
+}
+
+.context {
+    height: 419px;
+    width: 419px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 219px;
+
+}
+
+.context .form {
+    height: auto;
+    width: auto;
+    position: relative;
+}
+
+.context .form .form-title {
+    background: url(../images/admin-login-title1.png);
+    height: 54px;
+    width: 419px;
+    position: relative;
+    border-bottom: 2px solid #00A2AC;
+}
+
+.context .form .form-title .left-yj {
+    background: url(../images/admin-left-yj.png);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 54px;
+    width: 29px;
+}
+
+.context .form .form-title .right-yj {
+    background: url(../images/admin-right-yj.png);
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 54px;
+    width: 18px;
+}
+
+.context .form .top-style {
+    background: url(../images/top-style.png);
+    position: absolute;
+    top: -18px;
+    left: 5px;
+    height: 17px;
+    width: 17px;
+}
+
+.context .form .form-title .htxt {
+    background: url(../images/htxt.png);
+    width: 146px;
+    height: 72px;
+    position: absolute;
+    top: -18px;
+    left: 19px;
+}
+
+.context .form .form-title span {
+    position: relative;
+    left: 180px;
+    top: 18px;
+    font-size: 20px;
+    color: #00585D;
+}
+
+.context .form .form-body {
+    width: 419px;
+    height: 190px;
+    background: url(../images/form-background.png);
+    border-top: 2px solid #B4D8FF;
+}
+
+.context .form .form-body form {
+    margin-left: 38px;
+    margin-top: 25px;
+    color: #575757;
+}
+
+.context .form .form-body form input {
+    height: 25px;
+    width: 210px;
+    margin-top: 5px;
+    background: #B4D8FF;
+    border: 1px solid #70C1C6;
+}
+
+.context .form .form-body form #submit {
+    margin-left: 48px;
+    background: #FC7100;
+    width: 120px;
+    color: white;
+    font-size: 15px;
+    height: 35px;
+    border: 1px #B65200 solid;
+}
+
+.context .form .form-body form #validate {
+    width: 100px;
+    margin-top: 5px;
+}
+
+.context .form .form-body img {
+    position: absolute;
+    right: 120px;
+    bottom: 50px;
+}
+
+.context .form .form-body a {
+    color: #00A2AC;
+    text-decoration: none;
+    margin-left: 5px;
+    font-size: 14px;
+}
+
+.context .footer {
+    width: 100%;
+    height: 64px;
+    background: url(../images/login-footer.png);
+}

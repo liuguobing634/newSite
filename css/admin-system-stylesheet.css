@@ -1,0 +1,435 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #00A2AC;
+    font-size: 12px;
+}
+
+.header .back {
+    width: 100%;
+    height: 70px;
+    background: url(../images/system/header1.png);
+    line-height: 70px;
+    font-size: 22px;
+    color: white;
+}
+
+.header .menu {
+    width: 100%;
+    height: 32px;
+    background: url(../images/system/header2.png);
+}
+
+.context {
+    width: 950px;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.back .tcxt {
+    width: 113px;
+    height: 25px;
+    background: url(../images/system/tcxt.png);
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    cursor: pointer;
+}
+
+.back .xgmm {
+    width: 112px;
+    height: 25px;
+    background: url(../images/system/xgmm.png);
+    position: absolute;
+    top: 0px;
+    right: 113px;
+    cursor: pointer;
+}
+
+.back .yhhelp {
+    width: 109px;
+    height: 25px;
+    background: url(../images/system/yhhelp.png);
+    position: absolute;
+    top: 0px;
+    right: 113px;
+    cursor: pointer;
+}
+
+.menu .name, .menu .jb {
+    width: 100px;
+    margin-top: 5px;
+    float: left;
+    text-align: center;
+    color: white;
+}
+
+.menu .menu-enum1, .menu .menu-enum2 {
+    height: 33px;
+    color: white;
+    text-align: center;
+    line-height: 33px;
+    position: relative;
+    top: -33px;
+    float: right;
+    margin-left: 3px;
+    cursor: pointer;
+}
+
+.menu .menu-enum1 {
+    width: 110px;
+    background: url(../images/system/menu-enum1.png);
+}
+
+.menu .menu-enum2 {
+    width: 111px;
+    background: url(../images/system/menu-enum2.png);
+}
+
+.main .context {
+    height: 500px;
+    background: #AAE3E6;
+    margin-top: 15px;
+    padding-top: 3px;
+
+    position: relative;
+}
+
+.main .left {
+    height: auto;
+    background: white;
+    margin-left: 3px;
+    width: 160px;
+    float: left;
+}
+
+.main .left .menu-child {
+    width: 100%;
+    height: auto;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.main .left .menu-child .menu-child-enum1, .main .left .menu-child .menu-child-enum2 {
+    height: 28px;
+    line-height: 28px;
+    color: #006A71;
+
+}
+
+.main .left .menu-child .menu-child-enum1 {
+    background: #AAE3E6;
+}
+
+.main .left .menu-child .menu-child-enum2 {
+    cursor: pointer;
+}
+
+.main .left .menu-child .menu-child-enum1 i {
+    background-position: 0px -3px;
+}
+
+.main .left .menu-child .menu-child-enum2 i {
+    background-position: 0px -28px;
+}
+
+.main .left .menu-child i {
+    display: block;
+    float: left;
+    height: 18px;
+    width: 10px;
+    background: url(../images/system/menu-child.jpg);
+    margin-top: 0px;
+    margin-left: 50px;
+}
+
+.main .right {
+    height: 496px;
+    position: relative;
+    margin-right: 2px;
+    width: 780px;
+    float: right;
+    margin-bottom: 10px;
+}
+
+.left .enum1, .right .title {
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    color: white;
+    background: url(../images/system/enum1.png);
+}
+
+.left .enum1 {
+}
+
+.left .enum2 {
+    width: 100%;
+    height: 26px;
+    line-height: 26px;
+    color: #007980;
+    cursor: pointer;
+    background: url(../images/system/enum2.png);
+}
+
+.right .title span {
+    margin-left: 10px;
+}
+
+.right .title .add {
+    width: 83px;
+    height: 29px;
+    background: url(../images/system/add-news.jpg);
+    position: absolute;
+    right: 5px;
+    top: 0px;
+    cursor: pointer;
+}
+
+.right table {
+    margin-top: 10px;
+    width: 100%;
+    padding: 0;
+    border-spacing: 0;
+    text-align: center;
+    color: #007980;
+
+}
+
+.right table td {
+    border: 1px #1FCCD3 solid;
+}
+
+.right ._th {
+    height: 25px;
+    background: #71D7DC;
+    margin-top: 10px;
+    width: 100%;
+    line-height: 25px;
+}
+
+.right ._th .zjgx {
+    width: 82px;
+    height: 25px;
+    background: url(../images/system/th.png);
+    text-align: center;
+    color: white;
+    float: left;
+
+}
+
+.right table .th {
+    height: 20px;
+    line-height: 20px;
+    background: url(../images/system/th1.png);
+}
+
+.right table tr {
+    height: 27px;
+    line-height: 27px;
+}
+
+.right table .delete {
+    background: #007980;
+    color: white;
+    width: 30px;
+    height: 25px;
+    margin-top: 1px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.right table .edit {
+    background: #FF8400;
+    color: white;
+    margin-left: 3px;
+    width: 30px;
+    height: 25px;
+    margin-top: 1px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.right table .edit a {
+    color: white;
+    text-decoration: none;
+}
+
+.right table .double {
+    background: #CEFDFF;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 12px;
+    color: #004b4f;
+}
+
+.right form, .right form input, .right form select {
+    color: #007980;
+    margin-left: 5px;
+}
+
+.right form input[type="submit"] {
+    color: black;
+}
+
+.right form input[type="button"] {
+    color: black;
+}
+
+.right .pages {
+    width: 315px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.right i {
+    display: block;
+    height: 26;
+    width: 24px;
+    line-height: 26px;
+    font-style: normal;
+    float: left;
+    text-align: center;
+}
+
+.right .currentpage {
+    color: #AA1310;
+}
+
+.right #select-page {
+    background: none;
+    position: absolute;
+    right: 10px;
+    bottom: 0;
+    width: 50px;
+}
+
+.main .left-top {
+    background: url(../images/system/left-top.png);
+    width: 10px;
+    height: 8px;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+}
+
+.main .left-bottom {
+    background: url(../images/system/left-bottom.png);
+    height: 9px;
+    width: 7px;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+
+.main .right-top {
+    background: url(../images/system/right-top.png);
+    height: 8px;
+    width: 8px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.main .right-bottom {
+    background: url(../images/system/right-bottom.png);
+    height: 9px;
+    width: 6px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+.left i {
+    width: 22px;
+    height: 18px;
+    margin-left: 10px;
+    margin-top: 5px;
+    display: block;
+    float: left;
+}
+
+.table2 {
+    border-top: #1FCCD3 1px solid;
+    border-left: #1FCCD3 1px solid;
+}
+
+.right .table2 td {
+    border-bottom: #1FCCD3 1px solid;
+    border-right: #1FCCD3 1px solid;
+    border-left: none;
+    border-top: none;
+}
+
+.table2 .t1, .table2 .t3 {
+    width: 81px;
+}
+
+.table2 .t2 {
+    width: 263px;
+}
+
+.table2 .t2, .table2 .t4, .table2 .t5 {
+    text-align: left;
+    padding-left: 30px;
+}
+
+.right .check_form input[type="submit"] {
+    height: 32px;
+    border: none;
+    background: #007980;
+    color: white;
+    width: 120px;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-left: 93px;
+    font-weight: bold;
+}
+
+.right .title_2 {
+    height: 22px;
+    width: 100%;
+    background: #76DEE3;
+    margin-top: 10px;
+    *margin-top: 5px;
+}
+
+.right .title-text {
+    height: 100%;
+    width: 83px; /*103px*/
+    background: url(../images/system/title.png);
+    padding-left: 20px;
+    line-height: 22px;
+    color: white;
+}
+
+.right .column-form {
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.right .column-form div {
+    margin-top: 10px;
+    clear: both;
+}
+
+.right .column-form input[type="submit"] {
+    background: #007980;
+    height: 24px;
+    width: 96px;
+    margin-left: 70px;
+    border: none;
+    color: white;
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+.right .column-form input[type="text"] {
+    width: 250px;
+    background: none;
+    border: #5ED6DC 1px solid;
+}

@@ -1,0 +1,100 @@
+._form {
+    margin-top: 10px;
+    color: #269197;
+}
+
+._form b {
+    font-style: italic;
+    font-weight: normal;
+}
+
+._form label {
+    display: block;
+    width: 80px;
+    text-align: right;
+    color: #269197;
+    float: left;
+    clear: left;
+}
+
+._form .editor {
+    margin-left: 82px;
+    width: 650px;
+}
+
+.right ._form .editor i {
+    color: #000;
+}
+
+.right ._form i {
+    display: inline;
+    color: red;
+    float: none;
+}
+
+.right ._form select {
+    width: 80px;
+}
+
+.right ._form input[type="text"], .right ._form select {
+    background: none;
+    border: #6FD9DE 1px solid;
+}
+
+.right ._form input[type="submit"] {
+    height: 30px;
+    width: 80px;
+    color: white;
+    background: #007980;
+    border: none;
+    margin-left: 150px;
+    margin-top: 20px;
+}
+
+.right ._form input[type="reset"] {
+    height: 30px;
+    width: 60px;
+    color: white;
+    background: #00A2AC;
+    border: none;
+    margin-left: 20px;
+}
+
+.right .title2 {
+    background: #71D7DC;
+    padding-left: 10px;
+    height: 30px;
+    line-height: 30px;
+    color: #007980;
+}
+
+.right .editor2 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: white;
+    padding-left: 30px;
+    width: 650px;
+    padding-right: 100px;
+}
+
+.right ._form2 {
+    padding: 0px;
+    margin-left: 0px;
+}
+
+.right ._form2 input[type="submit"] {
+    background: #007980;
+    border: none;
+    color: white;
+    width: 120px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 300px;
+}
+
+.right ._span {
+    margin-left: 20px;
+    line-height: 30px;
+    color: #007980;
+}
+	

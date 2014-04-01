@@ -1,0 +1,131 @@
+#footer {
+    border-top: 1px solid #8DDF7D;
+
+    clear: both;
+}
+
+#footer a {
+    text-decoration: none;
+}
+
+#footer #footer1 {
+    width: 100%;
+    height: 186px;
+    background: #D5FFCD;
+}
+
+#footer1 .content_1 {
+    width: 1086px;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#footer1 .f_left {
+    width: 200px;
+    background: url("../images/index13_06.jpg");
+    height: 100%;
+    float: left;
+}
+
+#footer1 .blank {
+    width: 12px;
+    background: url("../images/index13_07.jpg");
+    height: 100%;
+    float: left;
+}
+
+#footer1 .f_center {
+    width: 710px;
+    height: 100%;
+    float: left;
+    position: relative;
+}
+
+.f_center b {
+    background: url("../images/index150_05.jpg");
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 20px;
+
+}
+
+.f_center a {
+    color: #61735D;
+    text-decoration: none;
+}
+
+#footer1 .f_right {
+    width: 150px;
+    height: 100%;
+    float: right;
+}
+
+#footer #footer2 {
+    width: 100%;
+    height: 36px;
+    background: #E8FFE3;
+    overflow: hidden;
+    clear: both;
+}
+
+#footer .content {
+    width: 900px;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#footer .content li a {
+    color: #0DAE00;
+}
+
+#footer2 .content li {
+    list-style: none;
+    float: left;
+    margin-left: 30px;
+    margin-top: 8px;
+    *margin-top: 8px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+#footer2 li i {
+    background: url('../images/index224_05.jpg');
+    float: left;
+    display: block;
+    width: 20px;
+    height: 20px;
+
+}
+
+#footer #footer3 {
+    width: 100%;
+    height: 28px;
+    background: #126400;
+    text-align: center;
+    line-height: 28px;
+    overflow: hidden;
+}
+
+#footer3 a {
+    color: #90E27E;
+    text-decoration: none;
+    width: 76px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#footer #footer4 {
+    width: 100%;
+    height: 63px;
+    text-align: center;
+    padding-top: 10px;
+    background: #D5FFCD;
+    overflow: hidden;
+    color: #8F9C8B;
+}

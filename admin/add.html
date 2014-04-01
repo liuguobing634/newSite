@@ -1,0 +1,158 @@
+<!DOCTYPE HTML PUBLIC
+        "-//W3C//DTD HTML 4.01//EN"
+        "http://www.w3.org/TR/html4/strict.dtd">
+
+
+<html>
+<head>
+    <title>用户添加</title>
+    <meta charset="utf-8"/>
+    <link type="text/css" rel="stylesheet" href="../css/admin-system-stylesheet.css"/>
+    <link type="text/css" rel="stylesheet" href="../css/admin-add-stylesheet.css"/>
+    <script  src="../js/admin/add.js"></script>
+</head>
+<body>
+<div class="header">
+    <div class="back">
+        <div class="context" style="position:relative">
+            伍贤光白发脱发网后台系统
+           <div class="xgmm" onclick="location.href='user-center-pass.html'"></div>
+            <div class="tcxt" onClick="location.href='login.html'"></div>
+        </div>
+    </div>
+    <div class="menu">
+        <div class="context" style="position:relative">
+            <span class="name">您好，admin!</span>
+            <span class="jb">角色：管理员</span>
+
+            <div class="menu-enum2" onClick="location.href='news-list.html'">新闻管理</div>
+            <div class="menu-enum2" onClick="location.href='service-add.html'">服务中心管理</div>
+            <div class="menu-enum2" onClick="location.href='books-list.html'">订单管理</div>
+            <div class="menu-enum2" onClick="location.href='product-add.html'">产品中心管理</div>
+            <div class="menu-enum2" onClick="location.href='system.html'">系统首页</div>
+        </div>
+    </div>
+</div>
+<div class="main">
+    <div class="context" style="height:auto" id="context">
+
+        <div class="left" id="left">
+            <div class="enum1"><i style="background:url(../images/system/icon-1.png)"></i>菜单列表</div>
+            <div class="enum2" onClick="location.href='news-list.html'"><i
+                    style="background:url(../images/system/icon-2.png)"></i>新闻管理
+            </div>
+            <div class="enum2" onclick="location.href='books-list.html'"><i
+                    style="background:url(../images/system/icon-3.png)"></i>订单管理
+            </div>
+            <div class="enum2" onClick="location.href='column-list.html'"><i
+                    style="background:url(../images/system/icon-7.png) no-repeat"></i>栏目管理
+            </div>
+            <div class="enum2" onclick="location.href='user-center.html'"><i style="background:url(../images/system/icon-4.png)" ></i>用户中心</div>
+            <div class="enum2" onClick="location.href='product-add.html'"><i
+                    style="background:url(../images/system/icon-5.png)"></i>产品中心管理
+            </div>
+            <div class="enum2" onClick="location.href='service-add.html'"><i
+                    style="background:url(../images/system/icon-6.png)"></i>服务中心管理
+            </div>
+        </div>
+        <div class="right" style="height:auto">
+            <div class="title" style="position:relative"><span>您现在所在的位置：系统首页&nbsp;&gt;&nbsp;添加</span>
+
+                <div class="add" style="background:url(../images/system/add.jpg) no-repeat"
+                     onClick="location.href='add.html'">
+                </div>
+            </div>
+            <form class="add_form">
+                <div class="title_2">
+                    <div class="title-text">账号/密码</div>
+                </div>
+                <div class="_input">
+                    <label>用户名：</label><input type="text" name="username"/><b>*</b>&nbsp;&nbsp;6--12位英文字母<br/>
+                    <label>密码：</label><input type="password" name="passwd"/><b>*</b><br/>
+                    <label>重复密码：</label><input type="password" name="repass"/><b>*</b><br/>
+                </div>
+                <div class="title_2">
+                    <div class="title-text">基本资料</div>
+                </div>
+                <div class="_input">
+                    <label>类型：</label><select onchange="changeType(this)">
+                    <option value="产品中心">产品中心</option>
+                    <option value="服务中心">服务中心</option>
+                </select><b>*</b><br/>
+
+
+
+                    <label>产品名称：</label><input type="text"/><b>*</b><br/>
+                    <label>货号：</label><input type="text"/><b>*</b><br/>
+                    <label>所在地区：</label><select></select>省<select></select>市<b>*</b><br/>
+                    <label>市场价：</label><input type="text" style="width:100px"/><b>*</b><br/>
+                    <label>销售价：</label><input type="text" style="width:100px"/><b>*</b><br/>
+                    <label>公司名称：</label><input type="text"/><b>*</b><br/>
+                    <label>标签：</label>
+                    <!--一下的复选框需要重新设计-->
+                    <span><input type="checkbox" name="tyxtf"/>脱溢性脱发</span><span><input type="checkbox" name="xxtf"/> 雄性脱发</span><span><input
+                        type="checkbox" name="blxtf"/>病理性脱发</span><span><input type="checkbox"
+                                                                               name="ycxtf"/>遗传性脱发</span><span><input
+                        type="checkbox" name="chtf"/>产后脱发</span><span><input type="checkbox"
+                                                                             name="sjxtf"/>神经性脱发</span><span><input
+                        type="checkbox" name="nxtf"/>男性脱发</span><br/>
+                    <span style="margin-left:100px"><input type="checkbox" name="nvxtf"/>女性脱发</span><span><input
+                        type="checkbox" name="ettf"/>儿童脱发</span><span><input type="checkbox"
+                                                                             name="lntf"/>老年脱发</span><span><input
+                        type="checkbox" name="sntf"/>少年白发</span><span><input type="checkbox"
+                                                                             name="zntf"/>中年白发</span><span><input
+                        type="checkbox" name="bt"/>斑秃</span><span><input type="checkbox" name="qt"/>全秃</span>
+                    <span><input type="checkbox" name="pt"/>普秃</span><br/>
+                    <span style="margin-left:100px"> <input type="checkbox" name="mny"/>毛囊炎</span><span><input
+                        type="checkbox" name="tx"/>头屑</span><span><input type="checkbox"
+                                                                         name="hfzf"/>护发植发</span><span><input
+                        type="checkbox" name="zfbf"/>织发补发</span><span><input type="checkbox"
+                                                                             name="zfjf"/>增发健发</span><span><input
+                        type="checkbox" name="ywzl"/>药物治疗</span><span><input type="checkbox"
+                                                                             name="jglf"/>激光疗法</span><br/>
+                    <span style="margin-left:100px"> <input type="checkbox" name="zjlf"/>针灸疗法</span><span><input
+                        type="checkbox" name="swlf"/>食物疗法</span><span><input type="checkbox"
+                                                                             name="zhlf"/>综合治疗</span><span><input
+                        type="checkbox" name="jylf"/>基因疗法</span><span><input type="checkbox"
+                                                                             name="tfcs"/>头发测试</span><span><input
+                        type="checkbox" name="fztf"/>防止脱发</span><span><input type="checkbox"
+                                                                             name="yfhf"/>养发护发</span><br/>
+
+
+                </div>
+                <div class="title_2">
+                    <div class="title-text">联系方式</div>
+                </div>
+                <div class="_input">
+                    <label>联系人：</label><input type="text"/><b>*</b><br/>
+                    <label>移动电话：</label><input type="text"/><b>*</b><br/>
+                    <label>固定电话：</label><input type="text"/><br/>
+                    <label>传真电话：</label><input type="text"/><br/>
+                    <label>电子邮箱：</label><input type="text"/><b>*</b><br/>
+                    <label>微信：</label><input type="text"/><br/>
+                    <label>QQ：</label><input type="text"/><br/>
+                    <label>联系地址：</label><input type="text" style="width:300px;"/><b>*</b><br/>
+                    <label>&nbsp;</label><input type="submit" value="保存"/>
+                </div>
+            </form>
+        </div>
+        <div class="left-top"></div>
+        <div class="left-bottom"></div>
+        <div class="right-top"></div>
+        <div class="right-bottom"></div>
+        <div style="clear:both"></div>
+    </div>
+
+</div>
+<div class="footer">
+    版权所有：伍贤光白发脱发网
+</div>
+
+<script>
+    var context = document.getElementById("context");
+    var left = document.getElementById("left");
+    left.style.height = context.clientHeight - 7 + "px";
+    //alert(context.clientHeight);
+</script>
+</body>
+</html>

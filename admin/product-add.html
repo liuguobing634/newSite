@@ -1,0 +1,120 @@
+<!DOCTYPE HTML PUBLIC
+        "-//W3C//DTD HTML 4.01//EN"
+        "http://www.w3.org/TR/html4/strict.dtd">
+
+
+<html>
+<head>
+    <title>产品中心--添加页</title>
+    <meta charset="utf-8"/>
+    <link type="text/css" rel="stylesheet" href="../css/admin-system-stylesheet.css"/>
+    <link type="text/css" rel="stylesheet" href="../css/add-style.css"/>
+    <script src="../js/tinymce/js/tinymce/tinymce.min.js"></script>
+    <script>
+        tinymce.init({
+            selector: "textarea",
+            language: 'zh_CN',
+            resize: false,
+            menubar: false
+        });
+    </script>
+</head>
+<body>
+<div class="header">
+    <div class="back">
+        <div class="context" style="position:relative">
+            白发脱发网后台系统
+             <div class="xgmm" onclick="location.href='user-center-pass.html'" style="right:222px"></div>
+            <div class="yhhelp"></div>
+            <div class="tcxt" onClick="location.href='login.html'"></div>
+        </div>
+    </div>
+    <div class="menu">
+        <div class="context" style="position:relative">
+            <span class="name">您好，admin!</span>
+            <span class="jb">角色：管理员</span>
+
+            <div class="menu-enum2" onClick="location.href='news-list.html'">新闻管理
+
+            </div>
+
+            <div class="menu-enum2" onClick="location.href='service-add.html'">服务中心管理</div>
+            <div class="menu-enum2" onClick="location.href='books-list.html'">订单管理</div>
+            <div class="menu-enum1">产品中心管理</div>
+            <div class="menu-enum2" onClick="location.href='system.html'">系统首页</div>
+        </div>
+    </div>
+</div>
+<div class="main">
+    <div class="context" style="height:auto" id="context">
+
+        <div class="left" id="left" style="height:560px;margin-bottom:4px;*margin-bottom:2px;*height:570px;">
+            <div class="enum1"><i style="background:url(../images/system/icon-1.png)"></i>菜单列表</div>
+            <div class="enum2" onClick="location.href='news-list.html'"><i
+                    style="background:url(../images/system/icon-2.png)"></i>新闻管理
+            </div>
+
+            <div class="enum2" onclick="location.href='books-list.html'"><i
+                    style="background:url(../images/system/icon-3.png)"></i>订单管理
+            </div>
+            <div class="enum2" onClick="location.href='column-list.html'"><i
+                    style="background:url(../images/system/icon-7.png) no-repeat"></i>栏目管理
+            </div>
+            <div class="enum2" onclick="location.href='user-center.html'"><i
+                    style="background:url(../images/system/icon-4.png)"></i>用户中心
+            </div>
+
+            <div class="enum2"><i style="background:url(../images/system/icon-5.png)"></i>产品中心管理</div>
+            <div class="menu-child">
+                <div class="menu-child-enum1"><i></i>产品介绍</div>
+                <div class="menu-child-enum2"><i></i>产品图片</div>
+                <div class="menu-child-enum2"><i></i>产品咨询</div>
+                <div class="menu-child-enum2"><i></i>使用范围</div>
+                <div class="menu-child-enum2"><i></i>注意事项</div>
+            </div>
+            <div class="enum2" onClick="location.href='service-add.html'"><i
+                    style="background:url(../images/system/icon-6.png)"></i>服务中心管理
+            </div>
+        </div>
+
+        <div class="right" style="height:auto" id="right">
+            <div class="title" style="position:relative"><span>您现在所在的位置：系统首页&nbsp;&gt;&nbsp;产品中心管理</span></div>
+            <span style="color:#007980;">类型：产品中心</span> <span class="_span">名称：首乌黑发液</span> <span class="_span">执行时间：2014.03.08</span>
+            <span class="_span">状态：未审核</span>
+
+            <div class="title2">产品介绍</div>
+
+            <form action="#" method="post" class="_form2">
+                <div class="editor2">
+                    <textarea rows="10" cols="50" name="editor01">请输入.</textarea>
+                </div>
+                <div class="_th">
+                    <div class="zjgx">审核</div>
+                    <input type="checkbox"/>审核已通过 <input type="checkbox"/>未审核
+                </div>
+                <input type="submit" value="保存并发布" style="clear:both"/>
+            </form>
+        </div>
+
+
+        <div class="left-top"></div>
+        <div class="left-bottom"></div>
+        <div class="right-top"></div>
+        <div class="right-bottom"></div>
+        <div style="clear:both"></div>
+    </div>
+
+</div>
+<div class="footer">
+    版权所有：伍贤光白发脱发网
+</div>
+<!--
+<script>
+    var context = document.getElementById("right");
+    var left = document.getElementById("left");
+    left.style.height = context.clientHeight - 7 + "px";
+    alert(context.clientHeight);
+
+</script>-->
+</body>
+</html>

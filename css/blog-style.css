@@ -1,0 +1,144 @@
+body {
+    font-size: 12px;
+    font-family: "宋体";
+    width: 1280px;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    position: relative;
+}
+
+.main a {
+    color: #6E6E6E;
+    text-decoration: none;
+}
+
+.header {
+    background: #D5FFCC;
+    width: 1089px;
+    height: 151px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header .clear {
+    clear: both;
+}
+
+.header .logo {
+    width: 106px;
+    height: 35px;
+    float: left;
+    background: url(../images/blog/logo.jpg);
+}
+
+.header .title {
+    width: 665px;
+    height: 151px;
+    background: url(../images/blog/header.jpg);
+    float: left;
+    margin-left: 60px;
+}
+
+.header .weixin {
+    background: url(../images/blog/weixin.jpg);
+    width: 118px;
+    height: 132px;
+    float: right;
+}
+
+.main {
+    width: 1085px;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px #D5FFCC solid;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.main .left {
+    float: left;
+    width: 471px;
+    height: auto;
+    margin-left: 30px;
+}
+
+.main .left .title {
+    color: #0F5A00;
+    line-height: 36px;
+    font-size: 16px;
+    border-bottom: 1px #0F5A00 solid;
+    width: 100%;
+    font-family: "微软雅黑";
+}
+
+.main .right {
+    float: right;
+    width: 471px;
+    height: auto;
+    margin-right: 30px;
+}
+
+.main .right .title {
+    color: #FF7E00;
+    line-height: 36px;
+    font-size: 16px;
+    border-bottom: 1px #FF7E00 solid;
+    width: 100%;
+    font-family: "微软雅黑";
+}
+
+.main .clear {
+    clear: both;
+    margin-top: 10px;
+}
+
+.main .devi {
+    float: left;
+    width: 20px;
+    height: 490px;
+    float: left;
+    background: url(../images/blog/dev2.jpg);
+    position: relative;
+    left: 30px;
+    top: 30px;
+}
+
+.main .devi .top-style {
+    background: url(../images/blog/dev1.jpg);
+    position: absolute;
+    width: 20px;
+    height: 74px;
+    top: 0px;
+    left: 0px;
+}
+
+.main .devi .bottom-style {
+    background: url(../images/blog/dev3.jpg);
+    height: 83px;
+    width: 20px;
+    position: absolute;
+    bottom: -5px;
+    left: 0px;
+}
+
+.main .content {
+    height: auto;
+    margin-top: 10px;
+}
+
+.main .content .doc {
+    width: 86px;
+    height: auto;
+    float: left;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.main .content .doc img {
+    display: block;
+}

@@ -1,0 +1,284 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+}
+
+a {
+    text-decoration: none;
+}
+
+textarea {
+    resize: none;
+    overflow: hidden;
+}
+
+.header {
+    width: 1090px;
+    height: 118px;
+    margin-left: auto;
+    margin-right: auto;
+    background: url(../images/question/header.jpg);
+}
+
+.main {
+    height: auto;
+    width: 1090px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main .title {
+    width: 100%;
+    height: 30px;
+    background: #589012;
+    line-height: 30px;
+    color: white;
+}
+
+.main .form {
+    width: 1088px;
+    height: 650px;
+    border: 1px solid #C0FFB3;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.main .form .title {
+    background: #D5FFCC;
+    color: #000;
+    padding-left: 10px;
+    width: 1080px;
+}
+
+.main .form form {
+    margin-top: 20px;
+    margin-left: 250px;
+}
+
+.main .form form input, .main .form form select, .main .form form textarea {
+    border: #B2E4A7 1px solid;
+    margin-top: 10px;
+}
+
+.main .form form select {
+    width: 64px;
+}
+
+.main .form form textarea {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.main .form span {
+    position: relative;
+    top: -145px;
+}
+
+.main .form i {
+    color: #F89D21;
+    font-style: normal;
+}
+
+.main .form form input[type="submit"] {
+    width: 150px;
+    height: 24px;
+    background: #0F5A00;
+    margin-left: 61px;
+    border: none;
+    color: white;
+}
+
+.main .form form input[type="reset"] {
+    width: 100px;
+    background: #589012;
+    border: none;
+    color: white;
+    height: 24px;
+    margin-left: 10px;
+}
+
+.main .form a {
+    color: #A0A0A0;
+    text-decoration: none;
+}
+
+.main .right {
+    width: 862px;
+    height: auto;
+    border: 1px #D9FFD1 solid;
+    float: right;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.main .right .title {
+    background: #D5FFCC;
+    height: 32px;
+    width: 862px;
+    line-height: 30px;
+}
+
+.main .right .title b {
+    color: #0F5A00;
+    font-size: 16px;
+}
+
+.main .right .question {
+    width: 825px;
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.main .right .question .ques_user {
+    color: #1D640F;
+    float: left;
+    color: #0F5A00;
+}
+
+.main .right .question .ques_time {
+    color:#A4A4A4;
+    float: right;
+    color: #6E6E6E;
+}
+
+.main .right .question .ques_content {
+    clear: both;
+    background: #E7FFE1;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px dotted #BBE2B1;
+    color: #6E6E6E;
+    line-height: 24px;
+}
+
+.main .right .question .ques_hd {
+    background: #E7FFE1;
+    text-align: right;
+}
+
+.main .right .question .ques_hd a {
+    text-decoration: none;
+}
+
+.main .right form {
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+
+}
+
+.main .right form input[type="text"], .main .right form textarea {
+    border: 1px solid #89D678;
+}
+
+.main .right form input[type="text"] {
+    height: 24px;
+    line-height: 24px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.main .right form input[type="submit"] {
+    border: none;
+    background: #0F5A00;
+    color: white;
+    height: 30px;
+    width: 60px;
+    margin-left: 120px;
+}
+
+.main form label {
+    width: 60px;
+    text-align: right;
+    float: left;
+    display: block;
+
+    margin-top: 10px;
+}
+
+.main form img {
+    position: absolute;
+}
+
+.main form a {
+    position: relative;
+    left: 100px;
+}
+
+.main .left {
+    width: 214px;
+    float: left;
+    margin-top: 10px;
+}
+
+.main .left .title {
+    height: 32px;
+    width: 214px;
+    background: #D5FFCC;
+    position: relative;
+    border-bottom: 1px solid #B3FFA3;
+}
+
+.main .left .title .title-back {
+    height: 32px;
+    width: 36px;
+    margin-left: 100px;
+    background: url(../images/question/title2.jpg);
+}
+
+.main .left .title .title-text {
+    width: 90px;
+    background: url(../images/question/title.jpg);
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    height: 32px;
+    color: white;
+    line-height: 32px;
+    padding-left: 10px;
+    font-size: 14px;
+}
+
+.main .left .content {
+    width: 212px;
+
+    border: 1px solid #B3FFA3;
+    margin-bottom: 10px;
+}
+
+.main .left .content ul {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+}
+
+.main .left .content ul li {
+    line-height: 22px;
+    list-style: url(../images/li.gif);
+}
+
+.main .left .button {
+    width: 202px;
+    height: 29px;
+    background: url(../images/question/title3.jpg);
+    border: 1px solid #B3FFA3;
+    line-height: 29px;
+    font-size: 14px;
+    color: white;
+    padding-left: 10px;
+    position: relative;
+}
+
+.main .left i {
+    display: block;
+    background: url(../images/question/icon3.jpg);
+    height: 18px;
+    width: 26px;
+    position: absolute;
+    top: 7px;
+    right: 115px;
+}

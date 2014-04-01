@@ -1,0 +1,570 @@
+/*
+	这个是产品版块css的
+*/
+
+.left .cpmn {
+    width: 100%;
+    height: 458px;
+    background: #D5FFCC;
+    border-bottom: 1px solid #B3FFA3;
+}
+
+#main {
+   *margin-top: 15px;
+}
+
+.cpmn .title {
+    width: 181px;
+    height: 32px;
+    line-height: 32px;
+    background: #2E7B1F;
+    font-size: 16px;
+    color: white;
+    padding-left: 35px;
+}
+
+.cpmn .enum {
+    width: 179px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    padding-left: 35px;
+    border-bottom: 1px solid #FBFFF9;
+    border-top: #A3DE97 1px solid;
+    border-left: #B3FFA3 1px solid;
+    border-right: #B3FFA3 1px solid;
+}
+
+.enum a {
+    color: #6E6E6E;
+    text-decoration: none;
+}
+
+.enum i {
+    background: url(../images/i_style.jpg);
+    width: 14px;
+    height: 13px;
+    display: block;
+    float: right;
+    margin-top: 8px;
+    margin-right: 5px;
+}
+
+.left .gwc {
+    height: 105px;
+    width: 136px;
+    background: url(../images/gwc.jpg);
+    margin-top: 10px;
+    color: #1D5111;
+    line-height: 105px;
+    padding-left: 80px;
+}
+
+.left .tw {
+    height: 132px;
+    wisth: 214px;
+    border: #B7FCAB 1px solid;
+    margin-top: 10px;
+    padding: 5px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.tw .wytw {
+    width: 196px;
+    border: 1px solid #21C300;
+    overflow: hidden;
+    height: 90px;
+    color: #A5A5A5;
+
+}
+
+.tw .button_ly {
+    width: 202px;
+    height: 24px;
+    line-height: 24px;
+    color: white;
+    background: #116400;
+    margin-top: 5px;
+    text-align: center;
+    cursor: pointer;
+    position: absolute;
+    top: 105px;
+}
+
+.right .title {
+    width: 846px;
+    height: 30px;
+    background: #D5FFCD;
+    border: #B3FFA3 1px solid;
+    color: #6E6E6E;
+    padding-left: 15px;
+    line-height: 30px;
+}
+
+.right .other_title {
+    width: 845px; /*861px*/
+    height: 30px;
+    background: #D5FFCD;
+    border: #B3FFA3 1px solid;
+    color: #2A7C1A;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 30px;
+    padding-left: 15px;
+}
+
+.right .cp_list {
+    width: 861px;
+    height: 236px;
+    border: #B3FFA3 1px solid;
+    border-top: none;
+    margin-bottom: 6px;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.right .ys_list {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 861px;
+    height: 140px;
+    border: #B3FFA3 1px solid;
+    border-top: none;
+    margin-bottom: 6px;
+}
+
+.right .title .title_text {
+    width: 111px;
+    height: 31px;
+    background: url(../images/cptitle.png);
+    line-height: 31px;
+    color: white;
+    text-align: center;
+    margin-left: -15px;
+}
+
+.right .title .title_text_1 {
+    width: 250px; /*335px*/
+    height: 32px;
+    background: url(../images/cptitle2.jpg);
+    line-height: 32px;
+    color: white;
+    padding-left: 85px;
+    text-align: left;
+    float: left;
+}
+
+.right .products {
+    width: 100%;
+    height: 1164px;
+
+    margin-top: 10px;
+
+}
+
+.right .products .products_h {
+    width: 100%;
+    height: 286px;
+
+    margin-bottom: 5px;
+}
+
+.right .sp {
+    width: 100%;
+    height: 313px;
+    margin-top: 10px;
+    margin-bottom: 23px;
+}
+
+.sp .sptp {
+    width: 448px;
+    height: 100%;
+    float: left;
+}
+
+.sptp .sp_zysx {
+    width: 418px;
+    height: 60px;
+    float: left;
+}
+
+.sptp ._i {
+    clear: both;
+    display: block;
+    float: left;
+    width: 30px;
+    height: 20px;
+    background: url(../images/zysx_tp.png);
+}
+
+.sptp .sp_spms {
+    width: 428px; /*448px*/
+    height: 150px;
+    padding: 20px 0px 0px 20px;
+    line-height: 24px;
+}
+
+.sptp .spzx {
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 320px;
+    height: auto;
+    line-height: 35px;
+}
+
+.sptp .zx_button {
+    float: right;
+    display: block;
+    height: 40px;
+    width: 100px;
+    text-align: center;
+}
+
+.zx_button a {
+    text-decoration: none;
+}
+
+.sptp .wxsm {
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 115px;
+    height: 115px;
+}
+
+.spzx i, .spzx .zx_button, .sptp .wxsm {
+    background: url(../images/zx_tp.png);
+}
+
+.spzx i {
+    display: block;
+    height: 35px;
+    width: 35px;
+    float: left
+}
+
+.sptp .sp_spzy {
+    width: 428px;
+    height: 130px;
+    padding: 20px 0px 0px 20px;
+}
+
+.sp_spzy .zy_label {
+    display: inline-block;
+    background: url(../images/zy_label.jpg);
+    width: 61px;
+    height: 16px;
+}
+
+.sp .spgm {
+    width: 386px; /*391px*/
+    height: 303px; /*313px*/
+    background: #D5FFCD;
+    padding-left: 5px;
+    padding-top: 10px;
+    float: right;
+}
+
+.spgm strong {
+    color: #29711B;
+    font-size: 14px;
+    font-family: "宋体";
+}
+
+.spgm .js {
+    display: block;
+    width: 30px;
+    height: 30px;
+    float: left;
+    background: #C6EDBE;
+    color: #AACCA3;
+    text-align: center;
+    font-size: 32px;
+    cursor: not-allowed;
+    line-height: 30px;
+    border: #AACCA3 1px solid;
+}
+
+.spgm .zj {
+    display: block;
+    float: left;
+    width: 30px;
+    height: 30px;
+    color: #000000;
+    line-height: 30px;
+    background: #C6EDBE;
+    border: #AACCA3 1px solid;
+    text-align: center;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.spgm .sl {
+    display: block;
+    float: left;
+    width: 30px;
+    height: 28px;
+
+    line-height: 30px;
+    text-align: center;
+    border: #AACCA3 1px solid;
+}
+
+.spgm .ljgm {
+    background: url(../images/ljgm.jpg);
+    width: 151px;
+    height: 42px;
+    margin-top: 10px;
+    float: right;
+    cursor: pointer;
+}
+
+.spgm .jrgwc {
+    background: url(../images/jrgwc.jpg);
+    width: 152px;
+    height: 42px;
+    margin-left: 30px;
+    margin-right: 10px;
+    margin-top: 10px;
+    float: right;
+    cursor: pointer;
+}
+
+.spgm b {
+    color: #FF9600;
+    font-size: 18px;
+}
+
+.spgm i {
+    color: #FF9600;
+    font-style: normal;
+}
+
+.spgm .bd {
+    display: block;
+    float: left;
+    height: auto;
+    width: 50px;
+}
+
+.spgm .mdd {
+    display: block;
+    float: left;
+    height: auto;
+    width: 60px;
+    background: white;
+    text-align: center;
+    border: #E4E4E6 1px solid;
+}
+
+.right .last {
+    height: 77px;
+    margin-left: 5px;
+    width: 22px;
+
+    background: url(../images/syz.jpg);
+    float: left;
+}
+
+.ys_list .last {
+
+    margin-top: 30px;
+
+}
+
+.cp_list .last {
+    margin-top: 70px;
+}
+
+.right .next {
+    height: 77px;
+    margin-right: 5px;
+    width: 22px;
+
+    background: url(../images/xyz.jpg);
+    float: right;
+}
+
+.ys_list .next {
+    margin-top: 30px;
+}
+
+.cp_list .next {
+    margin-top: 70px;
+}
+
+.ys_list .ys_name {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    color: #6D6D6D;
+}
+
+.ys_list .ys_cls1 {
+    height: auto;
+    width: auto;
+    position: absolute;
+    top: 20px;
+    left: 40px;
+}
+
+/*以下与上面一样，只是方便进行切换*/
+
+.ys_list .ys_cls2 {
+    height: auto;
+    width: auto;
+    position: absolute;
+    top: 20px;
+    left: 176px;
+}
+
+.ys_list .ys_cls3 {
+    height: auto;
+    width: auto;
+    position: absolute;
+    top: 20px;
+    left: 312px;
+}
+
+.ys_list .ys_cls4 {
+    height: auto;
+    width: auto;
+    position: absolute;
+    top: 20px;
+    left: 448px;
+}
+
+.ys_list .ys_cls5 {
+    height: auto;
+    width: auto;
+    position: absolute;
+    top: 20px;
+    left: 584px;
+}
+
+.ys_list .ys_cls6 {
+    height: auto;
+    width: auto;
+    position: absolute;
+    top: 20px;
+    left: 720px;
+}
+
+/* end ys_cls*/
+
+.cp_list .cpms {
+    width: 100%;
+    height: auto;
+    color: #727272;
+}
+
+.cp_list strong {
+    color: #6D6D6D;
+}
+
+.cp_list .cpjg {
+    color: #FC9313;
+    font-size: 15px;
+}
+
+.cp_list .cp_cls1 {
+    width: 140px;
+    height: auto;
+    position: absolute;
+    left: 40px;
+    top: 20px;
+}
+
+.cp_list .cp_cls2 {
+    width: 140px;
+    height: auto;
+    position: absolute;
+    left: 220px;
+    top: 20px;
+}
+
+.cp_list .cp_cls3 {
+    width: 140px;
+    height: auto;
+    position: absolute;
+    left: 400px;
+    top: 20px;
+}
+
+.cp_list .cp_cls4 {
+    width: 140px;
+    height: auto;
+    position: absolute;
+    left: 580px;
+    top: 20px;
+}
+
+.search-input {
+    float: right;
+    background: url(../images/search_input.jpg);
+    width: 276px;
+    height: 40px;
+    position: relative;
+}
+
+.search-input .search-submit {
+    position: absolute;
+    line-height: 40px;
+    top: 0;
+    right: 0;
+    text-align: center;
+    color: white;
+    width: 75px;
+    cursor: pointer;
+}
+
+.search-input .search-text {
+    float: left;
+    border: none;
+    height: 100%;
+    width: 170px;
+    background: none;
+    padding-left: 38px;
+    padding-right: 30px;
+    color: #A2A2A2;
+   *margin-top: 10px;
+}
+
+#other .sp-name {
+    width: 211px;
+    height: 118px;
+    float: left;
+}
+
+#other .sp-img {
+    height: 118px;
+    width: 678px;
+    background: url(../images/sp-img.png);
+    float: left;
+}
+
+#other .phonenumber {
+    height: 118px;
+    width: 197px;
+    background: url(../images/phone-number.png);
+    float: left;
+}
+
+.info_01 i {
+    display: block;
+    float: left;
+    height: 24px;
+    width: 24px;
+    background: url(../images/sp_icon.png);
+}
+
+.info_01 span {
+    display: block;
+    height: 48px;
+    line-height: 24px;
+    width: auto;
+    clear: both;
+}
+

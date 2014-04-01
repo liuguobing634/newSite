@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+#map {
+    width: 100%;
+    height: 24px;
+    background: url("../images/index3_01.jpg");
+    color: #5A5A5A;
+}
+
+#header {
+    width: 100%;
+    height: 143px;
+    clear: both;
+}
+
+#header #other {
+
+    width: 1086px;
+    height: 95px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#header #other #logo {
+
+    height: 100%;
+    width: 223px;
+    background: url("../images/index6_03.jpg");
+    float: left;
+    display: inline;
+}
+
+#header #other #oth_01 {
+    height: 100%;
+    width: 140px;
+    /*background:url("../images/index4_10.jpg");*/
+    vertical-align: middle;
+    line-height: 95px;
+    display: table-cell;
+    float: right;
+}
+
+#header #other #oth_02 {
+    height: 100%;
+    width: 137px;
+    /*background:url("../images/index4_11.jpg");*/
+    float: right;
+}
+
+#header #other #oth_03 {
+    height: 100%;
+    width: 139px;
+    /*background:url("../images/index4_06.jpg");*/
+    float: right;
+}
+
+#header #other #oth_04 {
+    height: 100%;
+    width: 197px;
+    background: url("../images/index7_03.jpg");
+    float: right;
+}

@@ -1,0 +1,130 @@
+body {
+    font-size: 12px;
+    font-family: "宋体";
+    position: relative;
+    margin: 0;
+    padding: 0;
+    width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header {
+    background: url(../images/sale/header.jpg);
+    width: 1090px;
+    height: 191px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main {
+    width: 1067px;
+    height: auto;
+    padding: 10px;
+
+    border: 1px #B3FFA3 solid;
+    border-top: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+.main .content {
+    height: auto;
+    width: 1065px;
+    border: 1px #B3FFA3 solid;
+    margin-top: 10px;
+}
+
+.main .left {
+    height: 329px;
+    width: 687px;
+    float: left;
+}
+
+.main .right {
+    height: auto;
+    width: 378px;
+    float: right;
+}
+
+.main .clear {
+    clear: both;
+}
+
+.main .right .top {
+    height: 170px;
+    width: 378px;
+    border-bottom: 1px dotted #97DF59;
+}
+
+.main .right .top .title {
+    height: 22px;
+    width: 188px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main .right .top .zy, .main .right .top .price {
+    width: 306px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 61px;
+    margin-top: 25px;
+}
+
+.main .right .top .zy b {
+    width: auto;
+    display: block;
+    float: left;
+    text-align: right;
+    font-weight: normal;
+    line-height: 20px;
+}
+
+.main .right .top .zy .detail {
+    width: 258px;
+    float: left;
+    line-height: 20px;
+}
+
+.main .right .top .price strong {
+    font-size: 24px;
+    color: #F78116;
+    font-family: "微软雅黑";
+}
+
+.main .right .bottom {
+    height: auto;
+    width: 310px;
+    margin-left: 37px;
+}
+
+.main .right .bottom i {
+    display: block;
+    color: #F78116;
+    line-height: 20px;
+    font-style: normal;
+    margin-top: 10px;
+}
+
+.main .right .bottom .code {
+    width: 170px;
+    height: auto;
+    float: left;
+}
+
+.main .right .bottom .code .enum {
+    width: 170px;
+    height: 27px;
+    margin-top: 10px;
+}
+
+.main .right .bottom .weixin-code {
+    width: 97px;
+    height: 101px;
+    float: right;
+    margin-top: 10px;
+    background: url(../images/sale/weixin.jpg);
+}

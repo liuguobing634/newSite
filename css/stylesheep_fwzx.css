@@ -1,0 +1,237 @@
+.right .map {
+    width: 863px; /*863px*/
+    height: 515px;
+
+}
+
+.right .title {
+    width: 851px; /*861px*/
+    height: 30px;
+    background: #D5FFCD;
+    border: #B3FFA3 1px solid;
+    color: #6E6E6E;
+    line-height: 30px;
+    padding-left: 10px;
+
+}
+
+.right .other-title {
+    width: 846px;
+    height: 30px;
+    background: #D5FFCD;
+    border: #B3FFA3 1px solid;
+    color: #2E7B1F;
+    line-height: 30px;
+    padding-left: 15px;
+}
+
+.right .fwzx_title_text {
+    width: 165px;
+    height: 30px;
+    background: url(../images/index10_05.jpg);
+    float: left;
+    color: white;
+    text-align: left;
+    padding-left: 15px;
+    line-height: 30px;
+
+}
+
+.right .qycx {
+    width: 863px; /*863px*/
+    height: auto;
+    margin-top: 5px;
+    position: relative;
+}
+
+.right .switch_page {
+    width: 360px;
+    height: 24px;
+    bottom: 10px;
+    left: 260px;
+    position: absolute;
+}
+
+.right .switch_page .last-page {
+    background: url(../images/last-page.png);
+    height: 100%;
+    width: 55px;
+    float: left;
+    cursor: pointer;
+}
+
+.right .switch_page .next-page {
+    background: url(../images/next-page.png);
+    height: 100%;
+    width: 55px;
+    float: right;
+    cursor: pointer;
+}
+
+.right .switch_page .page-number {
+    height: 100%;
+    width: 240px;
+    float: left;
+    padding-left: 10px;
+}
+
+.right .switch_page .page-number i {
+    float: left;
+    width: 24px;
+    height: 24px;
+    margin-left: 5px;
+    font-style: normal;
+    background: #F9FDFA;
+    line-height: 24px;
+    text-align: center;
+}
+
+.right .switch_page .page-number i a {
+    color: #6ACF7F;
+}
+
+.right .switch_page .page-number i .current_page {
+    color: #686868;
+}
+
+.qycx .sf {
+    width: 861px;
+    height: 100px;
+    border: #B3FFA3 1px solid;
+    border-top: none;
+}
+
+.top {
+
+    height: auto;
+    clear: both;
+}
+
+.qycx .sf .top {
+    width: 841px;
+    padding-left: 20px;
+}
+
+.qycx .sf .top span {
+    width: 50px;
+    height: 32px;
+    line-height: 32px;
+    float: left;
+}
+
+.sf a {
+    color: #6E6E6E;
+    text-decoration: none;
+}
+
+.sf_title-text {
+    width: 51px; /*66px*/
+    height: 55px;
+    background: url(../images/sf.png);
+    float: left;
+    color: white;
+    padding-left: 15px;
+    line-height: 55px;
+}
+
+.cs {
+    float: left;
+    width: 40px;
+    height: auto;
+    text-align: center;
+    color: #F99000;
+}
+
+.cs a {
+    color: #333;
+    text-decoration: none;
+}
+
+.fwyy {
+    margin: 10px;
+    width: auto;
+    height: 110px;
+}
+
+.fwzxnr {
+    width: 863px;
+    height: 1250px;
+
+    margin: 0;
+}
+
+.fwyy .yy_photo {
+    width: 155px;
+    height: 106px;
+    border: 1px solid #B3FFA3;
+    float: left;
+}
+
+.fwyy .yy_ms {
+    height: 106px;
+    width: auto;
+    float: left;
+    line-height: 24px;
+    margin-left: 5px;
+}
+
+.fwyy .yy_ms strong {
+    color: #2E7B1F;
+}
+
+.yy_ms a {
+    text-decoration: none;
+    display: inline-block;
+    padding-top: 2px;
+}
+
+.left .tw {
+    height: 132px;
+    wisth: 214px;
+    border: #B7FCAB 1px solid;
+    margin-top: 10px;
+    padding: 5px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.tw .wytw {
+    width: 196px;
+    border: 1px solid #21C300;
+    overflow: hidden;
+    height: 90px;
+    color: #A5A5A5;
+
+}
+
+.tw .button_ly {
+    width: 202px;
+    height: 24px;
+    line-height: 24px;
+    color: white;
+    background: #116400;
+    margin-top: 5px;
+    text-align: center;
+    cursor: pointer;
+    position: absolute;
+    top: 105px;
+    *left: 5px;
+}
+
+.title .sf {
+    width: auto;
+    height: 100%;
+    float: left;
+}
+
+.title .sf .top {
+    width: auto;
+    height: auto;
+    clear: both;
+}
+
+.title .sf .top span {
+    width: 49px;
+    float: left;
+}
+

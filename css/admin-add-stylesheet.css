@@ -1,0 +1,107 @@
+.right .title .add-again {
+    height: 20px;
+    width: auto;
+    border: 1px solid white;
+    float: right;
+    margin-right: 20px;
+    margin-top: 5px;
+    line-height: 20px;
+}
+
+.right .title .add-again b {
+    font-size: 18px;
+    float: left;
+}
+
+.right ._form {
+    margin-top: 30px;
+    margin-left: 60px;
+}
+
+._form input[type="password"] {
+    background: none;
+    border: none;
+    border-bottom: 1px #42A2A8 solid;
+    width: 200px;
+}
+
+._form label {
+    width: 96px;
+    float: left;
+    clear: both;
+    text-align: right;
+    margin-top: 5px;
+}
+
+.right ._form input[type="submit"] {
+    width: 150px;
+    height: 32px;
+    background: #007980;
+    border: none;
+    color: white;
+    margin-top: 5px;
+}
+
+.right .add_form {
+    margin-left: 0px;
+    *margin-top: 0px;
+}
+
+.right .add_form ._input {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    *margin-top: 10px;
+    *margin-bottom: 10px;
+}
+
+.right .add_form label {
+    display: block;
+    text-align: right;
+
+    width: 60px;
+    float: left;
+    margin-left: 40px;
+    margin-top: 10px;
+    clear: both;
+}
+
+.right .add_form input {
+    margin-top: 10px;
+    background: none;
+    border: 1px #24CDD4 solid;
+    width: 180px;
+}
+
+.right .add_form span {
+}
+
+.right .add_form b {
+    color: red;
+    font-style: normal;
+    font-weight: normal;
+    margin-left: 5px;
+}
+
+.right .add_form input[type="checkbox"] {
+    width: inherit;
+    background: #AAE3E6;
+    border: 0px;
+    *width: auto;
+}
+
+.right .add_form select {
+    background: #AAE3E6;
+    border: 1px #24CDD4 solid;
+    width: 77px;
+}
+
+.right .add_form input[type="submit"] {
+    background: #007980;
+    border: none;
+    width: 60px;
+    height: 25px;
+    color: white;
+}
+.right .add_form select {
+    margin-top:8px;
+}

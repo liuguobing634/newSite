@@ -1,0 +1,404 @@
+body {
+    position: relative;
+}
+
+.shop-content {
+    width: 861px;
+    border: #B3FFA3 1px solid;
+    border-top: none;
+    height: auto;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    color: #6e6e6e;
+}
+
+.lc {
+    width: 822px;
+    height: 50px;
+    margin-left: 19px;
+    background: url(../images/shopcar/lc1.jpg);
+}
+
+.shop-product {
+    width: 820px;
+    height: auto;
+    border: #B3FFA3 1px solid;
+    margin-left: 19px;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.shop-title {
+    width: auto;
+    margin-left: 8px;
+}
+
+.table {
+    margin-top: 5px;
+    margin-left: 10px;
+    border-spacing: 0px;
+    border: #B3FFA3 1px solid;
+    font-size: 12px;
+    font-family: "宋体";
+    color: #6e6e6e;
+}
+
+.table tr {
+
+}
+
+.table td {
+    border-right: #B3FFA3 1px solid;
+    border-bottom: #B3FFA3 1px solid;
+    margin: 0;
+    background: #E6FFE0;
+    text-align: center;
+    height: 27px;
+    line-height: 27px;
+}
+
+.table .enum td {
+    background: none;
+    height: 84px;
+    line-height: 84px;
+    line-height: 0px \9;
+    *line-height: 84px;
+    border-bottom: none;
+}
+
+.table .del {
+    border-right: none;
+}
+
+.table .total2 td {
+    border: none;
+    border-top: #B3FFA3 1px solid;;
+}
+
+.table .img {
+    width: 144px;
+
+}
+
+.table .img img {
+    margin-top: 10px \9;
+    margin-bottom: 10px \9;
+}
+
+.table .name {
+    width: 334px;
+}
+
+.table .price1 {
+    width: 63px;
+    text-decoration: line-through;
+}
+
+.table .price2 {
+    width: 63px;
+    color: #FF9600;
+}
+
+.table .num {
+    width: 63px;
+    border-right: none;
+}
+
+.table .enum .num {
+    width: 63px;
+    height: 84px;
+    position: relative;
+    top: 0;
+    left: 0;
+    /*border-bottom:#B3FFA3 1px solid;*/
+}
+
+.table .total1 {
+    width: 63px;
+    border-left: #B3FFA3 1px solid;
+}
+
+.table .del {
+    width: 44px;
+}
+
+.table .th td {
+    text-decoration: none;
+    color: inherit;
+}
+
+.num .number {
+    width: 29px;
+    height: 20px;
+    position: absolute;
+    top: 30px;
+    left: 5px;
+}
+
+.num .number input {
+    width: 29px;
+    margin: 0px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    *width: 25px;
+}
+
+.num .oper {
+    width: 19px;
+    height: 30px;
+    position: absolute;
+    top: 30px;
+    right: 8px;
+}
+
+.num .oper .min {
+    background: url(../images/shopcar/min.jpg);
+    height: 10px;
+    width: 19px;
+}
+
+.num .oper .add {
+    background: url(../images/shopcar/add.jpg);
+    height: 10px;
+    width: 19px;
+    margin-top: 3px;
+}
+
+.total2 td {
+    text-align: right;
+}
+
+.total2 td i {
+    font-style: normal;
+    color: #FF9600;
+    margin-right: 5px;
+}
+
+.submit {
+    width: 152px;
+    height: 42px;
+    background: url(../images/shopcar/submit.jpg);
+    float: right;
+    margin-top: 5px;
+    margin-right: 10px;
+    display: inline;
+}
+
+.delete {
+    width: 13px;
+    height: 14px;
+    background: url(../images/shopcar/del.jpg);
+    margin-left: 15px;
+    *margin-left: 0px;
+    margin-top: 0px;
+}
+
+.f_title {
+    background: #D5FFCC;
+    height: 24px;
+    line-height: 24px;
+    color: #ff9600;
+    border-bottom: #B3FFA3 1px solid;;
+    padding-left: 10px;
+    font-weight: bold;
+}
+
+.form_enum {
+    clear: both;
+    margin-top: 5px;
+}
+
+.form_enum label {
+    float: left;
+    width: 100px;
+    text-align: right;
+    line-height: 24px;
+}
+
+.form_enum .input {
+    float: left;
+    margin-left: 5px;
+}
+
+.clear {
+    clear: both;
+}
+
+.form_enum input[type="text"] {
+    border: #89D678 1px solid;
+    margin-right: 5px;
+}
+
+.form_enum select {
+    border: #89D678 1px solid;
+}
+
+.form_enum i {
+    color: #FF9600;
+    font-style: normal;
+}
+
+.radio {
+    width: 150px;
+    float: left;
+    border-bottom: #89D678 1px solid;
+    border-right: #89D678 1px solid;;
+    text-align: center;
+}
+
+.instruction {
+    width: 639px;
+    float: left;
+    border-bottom: #89D678 1px solid;
+    padding-left: 20px;
+    padding-right: 10px;
+    background: #E6FFE0;
+    padding-top: 10px;
+}
+
+.instruction i {
+    color: #FF9600;
+    font-style: normal;
+}
+
+.radio input {
+    margin-left: 20px;
+}
+
+.instruction table {
+    margin-top: 10px;
+}
+
+.instruction table td {
+    height: 18px;
+    line-height: 18px;
+}
+
+.instruction .code {
+    width: 134px;
+}
+
+.instruction .bank {
+    width: 85px;
+    text-align: center;
+}
+
+.instruction .code_name {
+    width: 85px;
+    text-align: center;
+}
+
+.instruction .zx {
+    background: url(../images/shopcar/zx.jpg);
+    width: 169px;
+    height: 199px;
+    right: 5px;
+    top: 10px;
+    position: absolute;
+}
+
+.instruction .yqtx {
+    line-height: 24px;
+    width: 440px;
+    position: absolute;
+    left: 20px;
+    bottom: 30px;
+}
+
+.car1 {
+    position: absolute;
+    display: inline-block;
+    bottom: 20px;
+    left: 10px;
+    background: url(../images/shopcar/car.gif) no-repeat;
+    padding-left: 26px;
+    height: 19px;
+    line-height: 19px;
+    cursor: pointer;
+}
+
+.car2 {
+    position: absolute;
+    display: inline-block;
+    bottom: 22px;
+    left: 100px;
+    background: url(../images/shopcar/del.jpg) no-repeat;
+    padding-left: 18px;
+    height: 14px;
+    line-height: 14px;
+    cursor: pointer;
+}
+
+form {
+    margin-bottom: 0em;
+}
+
+.price3 {
+    background: #E6FFE0;
+    height: 30px;
+    border: #B3FFA3 1px solid;
+    width: 810px;
+    line-height: 30px;
+    text-align: right;
+    padding-right: 10px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.price3 i {
+    color: #FF9600;
+    font-style: normal;
+}
+
+.table2 {
+    background: #E6FFE0;
+    border-collapse:collapse;
+    color: #6E6E6E;
+    font-size: 12px;
+}
+
+.table2 td {
+    border-right: 1px #B3FFA3 solid;
+    border-bottom: 1px #B3FFA3 solid;
+    height: 25px;
+}
+
+.table2 .t1 {
+    width: 102px;
+    text-align: center;
+}
+
+.table2 .t2 {
+    width: 285px;
+    padding-left: 20px;
+}
+
+.table2 .t3 {
+    width: 102px;
+    text-align: center;
+}
+
+.table2 .t4 {
+    width: 305px;
+    border-right: none;
+    padding-left: 20px;
+}
+
+.table2 .t5 {
+    border-bottom: none;
+    text-align: center;
+
+}
+
+.table2 .t6 {
+    border-right: none;
+    padding-left: 20px;
+}
+
+.table2 .t7 {
+    border: none;
+    padding-left: 20px;
+}
+
